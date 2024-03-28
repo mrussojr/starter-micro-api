@@ -1,0 +1,190 @@
+{
+  "bots": [
+    {
+      "name": "good_bot",
+      "overrideUrl": "false",
+      "randomImg": "false",
+      "imgUrls": [
+        "6hb5o4.jpg"
+      ],
+      "keyWords": [
+        "good bot"
+      ]
+    },
+    {
+      "name": "bad_bot",
+      "overrideUrl": "false",
+      "randomImg": "false",
+      "imgUrls": [
+        "6hb3ky.jpg"
+      ],
+      "keyWords": [
+        "bad bot",
+        "bad mike"
+      ]
+    },
+    {
+      "name": "every_bot",
+      "overrideUrl": "false",
+      "randomImg": "false",
+      "imgUrls": [
+        "8fxsdo.jpg"
+      ],
+      "keyWords": [
+        "bot "
+      ]
+    },
+    {
+      "name": "ackbar",
+      "overrideUrl": "false",
+      "randomImg": "false",
+      "imgUrls": [
+        "82yysp.gif"
+      ],
+      "keyWords": [
+        "update",
+        "trap",
+        "restart"
+      ]
+    },
+    {
+      "name": "docu",
+      "overrideUrl": "false",
+      "randomImg": "false",
+      "imgUrls": [
+        "8cvxpg.jpg"
+      ],
+      "keyWords": [
+        "docu",
+        "documentation",
+        "documentation?",
+        "docs"
+      ]
+    },
+    {
+      "name": "pla",
+      "overrideUrl": "false",
+      "randomImg": "false",
+      "imgUrls": [
+        "6zj3c9.jpg"
+      ],
+      "keyWords": [
+        " pla ",
+        "plattsburgh"
+      ]
+    },
+    {
+      "name": "gremlins",
+      "overrideUrl": "true",
+      "randomImg": "true",
+      "imgUrls": [
+        "https://media3.giphy.com/media/l1AvALOphoaWbxeRa/giphy.gif",
+        "https://media4.giphy.com/media/l0ErRtQDgjMtQcjsI/giphy.gif",
+        "https://media4.giphy.com/media/3o6wryDi8VtkJje5OM/giphy.gif",
+        "https://media2.giphy.com/media/xUySTQ7Dd44abh7yXS/giphy.gif",
+        "https://media2.giphy.com/media/l2YWEKkoFWAVwCYqk/giphy.gif",
+        "https://media2.giphy.com/media/10s0mBHaDoe7YI/giphy.gif",
+        "https://media0.giphy.com/media/fVm2NhdgqJf7q/giphy.gif"
+      ],
+      "keyWords": [
+        "gremlins"
+      ]
+    },
+    {
+      "name": "clippy",
+      "overrideUrl": "false",
+      "randomImg": "true",
+      "imgUrls": [
+        "8j7ycy.jpg",
+        "8j7yhd.jpg"
+      ],
+      "keyWords": [
+        " MS ",
+        "Microsoft",
+        " Teams ",
+        " Outlook ",
+        " Clippy "
+      ]
+    },
+    {
+      "name": "cer",
+      "overrideUrl": "false",
+      "randomImg": "true",
+      "imgUrls": [
+        "6p1et7.jpg",
+        "6p1f0n.gif",
+        "6p1f61.gif",
+        "6p1f9b.gif",
+        "6p1few.gif",
+        "6p1fjb.jpg",
+        "cup54.jpg"
+      ],
+      "keyWords": [
+        " CER ",
+        " C er amics ",
+        " Ceramics ",
+        " CER,"
+      ]
+    },
+    {
+      "name": "groovy",
+      "overrideUrl": "false",
+      "randomImg": "true",
+      "imgUrls": [
+        "6xhgsf.jpg",
+        "6xhgzr.jpg",
+        "6xhh62.jpg"
+      ],
+      "keyWords": [
+        "Groovy",
+        "wrap",
+        "w r a p",
+        "wrapping",
+        "grooovy",
+        "gr00vy",
+        "G-Word",
+        "gro0vy",
+        "Gr0ovy",
+        " g word",
+        " w word",
+        " g r o o v y",
+        " g code ",
+        " groovilicious "
+      ]
+    },
+    {
+      "name": "system_admin",
+      "overrideUrl": "false",
+      "randomImg": "true",
+      "imgUrls": [
+        "6gbxlf.jpg",
+        "6gbyil.jpg",
+        "6gbyul.jpg",
+        "6gbzm5.jpg",
+        "6gc0pq.gif",
+        "6ncckt.jpg",
+        "6nccwm.jpg"
+      ],
+      "keyWords": [
+        "System Admin",
+        " SA ",
+        "SystemAdmin",
+        "sysAdmin",
+        " Sa, ",
+        "SysAdmn",
+        " Sy Ad ",
+        " Sy Admin ",
+        "Sys Admin",
+        " SA,",
+        " SA-",
+        "Suny Admin",
+        " SA's ",
+        " Sys A* ",
+        " SysA's ",
+        " Sys A's ",
+        " Sys Ad ",
+        " sys Adm "
+      ]
+    }
+  ]
+}
