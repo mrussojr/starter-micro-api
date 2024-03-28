@@ -8,7 +8,7 @@ http.createServer(function (req, res) {
         let imgUrl = 'https://i.imgflip.com/';
         let imgIndex = 0;
     
-        console.log(req.url);
+        console.log(chunk);
     
         res.write(imgUrl);
     
