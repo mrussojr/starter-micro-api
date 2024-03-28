@@ -6,7 +6,7 @@ http.createServer(function (req, res) {
     let imgUrl = 'https://i.imgflip.com/';
     let imgIndex = 0;
 
-    console.log(req);
+    console.log(req.url);
 /*
     bots.bots.map((b) => {
         if(!found){
