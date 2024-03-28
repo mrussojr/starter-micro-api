@@ -6,10 +6,8 @@ http.createServer(function (req, res) {
     let found = false;
     let imgUrl = 'https://i.imgflip.com/';
     let imgIndex = 0;
-
-    req.body = bodyParser.json(req);
     
-    console.log(req.body);
+    console.log(bodyParser.json(req));
 
     res.write(imgUrl);
 
