@@ -6,8 +6,8 @@ http.createServer(function (req, res) {
     let imgUrl = 'https://i.imgflip.com/';
     let imgIndex = 0;
 
-    //console.log(req.body.body.content);
-
+    console.log(req);
+/*
     bots.bots.map((b) => {
         if(!found){
             b.keyWords.map((k) => {
@@ -29,7 +29,7 @@ http.createServer(function (req, res) {
             }
         }
     });
-
+*/
     if(found){
         res.write(imgUrl);
     }else{
