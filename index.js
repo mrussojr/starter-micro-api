@@ -7,34 +7,8 @@ http.createServer(function (req, res) {
     let imgIndex = 0;
 
     console.log(req.url);
-/*
-    bots.bots.map((b) => {
-        if(!found){
-            b.keyWords.map((k) => {
-                if(req.body.body.content.match(k)){
-                    found = true;
-                }
-            })
 
-            if(found){
-                if(b.randomImg === "true"){
-                    imgIndex = Math.floor(Math.random() * b.imgUrls.length);
-                }
-
-                if(b.overrideUrl === "true"){
-                    imgUrl = b.imgUrls[imgIndex];
-                }else{
-                    imgUrl += b.imgUrls[imgIndex];
-                }
-            }
-        }
-    });
-*/
-    if(found){
-        res.write(imgUrl);
-    }else{
-        res.write();
-    }
+    res.write(imgUrl);
 
     res.end();
 }).listen(process.env.PORT || 3000);
