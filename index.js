@@ -9,7 +9,7 @@ const serv = http.createServer((req, res) => {
       res.write('invalid service');
       res.end();
   }
-});
+}).listen(process.env.PORT || 3000);
 
 function handlePostList(req, res){
     let found = false;
@@ -23,5 +23,3 @@ function handlePostList(req, res){
 
     res.end();
 });
-
-serv.listen(process.env.PORT || 3000);
