@@ -16,8 +16,8 @@ function handlePostList(req, res){
     let imgUrl = 'https://i.imgflip.com/';
     let imgIndex = 0;
 
-    const body = bodyParser.json()(req);
-    console.log(body);
+    const body = bodyParser.json(req);
+    console.log(body.body);
 
     res.write(imgUrl);
 
