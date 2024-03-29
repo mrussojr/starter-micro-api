@@ -41,9 +41,9 @@ function handlePostList(req, res){
       });
   
       if(found){
-          res.send(imgUrl);
+          res.end(imgUrl);
       }else{
-          res.send();
+          res.end();
       }
     });
 };
