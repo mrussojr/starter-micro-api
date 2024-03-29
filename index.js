@@ -2,9 +2,16 @@ const bots = require('./lib/bots.json');
 var http = require('http');
 const bodyParser = require('body-parser');
 
-const serv = http.createServer();
+const serv = http.createServer((req, res) => {
+  if (request.method === 'POST' && request.url === '/list'){
+      handlePostList(req, res);
+  }else{
+      res.write('invalid service');
+      res.end();
+  }
+});
 
-serv.on('list', function (req, res) {
+function handlePostList(req, res){
     let found = false;
     let imgUrl = 'https://i.imgflip.com/';
     let imgIndex = 0;
