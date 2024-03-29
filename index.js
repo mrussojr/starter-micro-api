@@ -3,7 +3,7 @@ var http = require('http');
 const bodyParser = require('body-parser');
 
 http.createServer(function(req, res){
-  if (request.method === 'POST' && request.url === '/list'){
+  if (req.method === 'POST' && req.url === '/list'){
       handlePostList(req, res);
   }else{
       res.write('invalid service');
