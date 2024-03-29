@@ -2,7 +2,7 @@ const bots = require('./lib/bots.json');
 var http = require('http');
 const bodyParser = require('body-parser');
 
-const serv = http.createServer().listen(process.env.PORT || 3000);
+const serv = http.createServer();
 
 serv.on('/', function (req, res) {
     let found = false;
@@ -15,3 +15,5 @@ serv.on('/', function (req, res) {
 
     res.end();
 });
+
+serv.listen(process.env.PORT || 3000);
