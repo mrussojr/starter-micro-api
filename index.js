@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 
 const serv = http.createServer();
 
-serv.on('/', function (req, res) {
+serv.on('list', function (req, res) {
     let found = false;
     let imgUrl = 'https://i.imgflip.com/';
     let imgIndex = 0;
