@@ -9,7 +9,7 @@ serv.on('/', function (req, res) {
     let imgUrl = 'https://i.imgflip.com/';
     let imgIndex = 0;
     
-    console.log(bodyParser.json(req));
+    console.log(bodyParser.json()(req));
 
     res.write(imgUrl);
 
