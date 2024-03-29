@@ -2,7 +2,7 @@ const bots = require('./lib/bots.json');
 var http = require('http');
 const bodyParser = require('body-parser');
 
-const serv = http.createServer((req, res) => {
+http.createServer(function(req, res){
   if (request.method === 'POST' && request.url === '/list'){
       handlePostList(req, res);
   }else{
