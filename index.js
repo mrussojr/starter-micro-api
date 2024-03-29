@@ -22,5 +22,5 @@ function handlePostList(req, res){
       
       res.write(imgUrl);
       res.end();
-    }
+    });
 };
