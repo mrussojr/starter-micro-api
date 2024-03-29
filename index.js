@@ -1,6 +1,7 @@
 const bots = require('./lib/bots.json');
 var http = require('http');
 const bodyParser = require('body-parser');
+var jsonParser = bodyParser.json();
 
 http.createServer(function(req, res){
   if (req.method === 'POST' && req.url === '/list'){
@@ -16,10 +17,10 @@ function handlePostList(req, res){
     let imgUrl = 'https://i.imgflip.com/';
     let imgIndex = 0;
 
-    const body = bodyParser.json(req);
-    console.log(body.body);
-
-    res.write(imgUrl);
-
-    res.end();
+    jsonParser(req, res, (error) => {
+      console.log(req.body);
+      
+      res.write(imgUrl);
+      res.end();
+    }
 };
