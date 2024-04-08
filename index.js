@@ -42,9 +42,9 @@ function handlePostList(req, res){
       });
   
       if(found){
-          res.end({imgUrl: imgUrl, found: true}.toString());
+          res.end(imgUrl);
       }else{
-          res.end({found: false}.toString());
+          res.end();
       }
     });
 };
