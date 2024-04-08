@@ -18,6 +18,7 @@ function handlePostList(req, res){
     let imgIndex = 0;
 
     jsonParser(req, res, (error) => {
+      console.log(req.body);
       bots.bots.map((b) => {
           if(!found){
               b.keyWords.map((k) => {
