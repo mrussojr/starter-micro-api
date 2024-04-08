@@ -22,7 +22,7 @@ function handlePostList(req, res){
       bots.bots.map((b) => {
           if(!found){
               b.keyWords.map((k) => {
-                  if(req.body.body.content.match(k)){
+                  if(req.body.body.match(k)){
                       found = true;
                   }
               })
