@@ -44,7 +44,7 @@ function handlePostList(req, res){
       if(found){
           res.end(imgUrl);
       }else{
-          res.end();
+          res.end('XXX');
       }
     });
 };
