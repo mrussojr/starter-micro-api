@@ -36,10 +36,11 @@
     },
     {
       "name": "ackbar",
-      "overrideUrl": "false",
-      "randomImg": "false",
+      "overrideUrl": "true",
+      "randomImg": "true",
       "imgUrls": [
-        "82yysp.gif"
+        "https://i.imgflip.com/82yysp.gif",
+        "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDNlYmt1NmJ0cmpxbnN5bnNpZGt3dDc0cG16ejJnN3JqZGZnZTlwNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2YWhOEwfSAnJNJEQ/giphy.gif"
       ],
       "keyWords": [
         "update",
