@@ -7,7 +7,7 @@ http.createServer(function(req, res){
   if (req.method === 'POST' && req.url === '/list'){
       handlePostList(req, res);
   }else{
-      res.write('invalid service');
+      res.write('{err_msg: "invalid service"}');
       res.end();
   }
 }).listen(process.env.PORT || 3000);
