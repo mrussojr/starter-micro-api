@@ -16,6 +16,7 @@ function handlePostList(req, res){
     let found = false;
     let imgUrl = 'https://i.imgflip.com/';
     let imgIndex = 0;
+    let botName = '';
 
     jsonParser(req, res, (error) => {
       // console.log(req.body);
@@ -29,6 +30,7 @@ function handlePostList(req, res){
               })
   
               if(found){
+                  botName = b.name;
                   if(b.randomImg === "true"){
                       imgIndex = Math.floor(Math.random() * b.imgUrls.length);
                   }
@@ -43,9 +45,10 @@ function handlePostList(req, res){
       });
   
       if(found){
+          res.write('{imglink: "' + imgUrl + '", bot_name: "' + botName + '"}');
           res.end(imgUrl);
       }else{
-          res.end('XXX');
+          res.end('{imglink: "XXX", bot_name: ""}');
       }
     });
 };
