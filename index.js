@@ -24,7 +24,9 @@ function handlePostList(req, res){
           if(!found){
               b.keyWords.map((k) => {
                   let regex = new RegExp(k, 'i');
-                  if(req.body.body.match(regex)){
+                  let regex2 = new RegExp(k.split("").join(" "), 'i');
+                
+                  if(req.body.body.match(regex) || req.body.body.match(regex2)){
                       found = true;
                   }
               })
