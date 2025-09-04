@@ -48,7 +48,7 @@ function handlePostList(req, res){
   
       if(found){
           res.write('{imglink: "' + imgUrl + '", bot_name: "' + botName + '"}');
-          res.end(imgUrl);
+          //res.end(imgUrl);
       }else{
           res.end('{imglink: "XXX", bot_name: ""}');
       }
